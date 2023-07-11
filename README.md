@@ -15,6 +15,16 @@
     * [Start service](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/tree/main#finally-start-the-newly-installed-service)
 
 <br>
+
+<table>
+ <tr>
+   <th>PulseAudio - Modules</th>
+   <th>https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Modules/</th>
+ </tr>
+</table>
+
+
+<br>
  
 ## Background
 
@@ -125,7 +135,13 @@ However, I found a much newer set of binaries from the X2Go project: http://code
       ```
       auth-anonymous=1 
       ```
-     * [source](https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Modules/) - *do a page search for "auth-anonymous"*
+     * [source](https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Modules/) - *Do a page search for:*
+       <sup>
+       ```
+       auth-anonymous
+       ```
+       </sup>
+     
      * [example](https://openwrt.org/docs/guide-user/hardware/audio/pulseaudio#configuration)
 <br>
 
