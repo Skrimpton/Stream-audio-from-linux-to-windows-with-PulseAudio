@@ -139,7 +139,7 @@ However, I found a much newer set of binaries from the X2Go project: http://code
 ---
 <br>
 
-# Permanent, automatic setup
+# NSSM and making a service - Permanent, automatic setup
 For a permanent setup we need to create a Windows service rather than running PulseAudio in a command prompt.
 
 I use NSSM to run arbitrary programs as services.
