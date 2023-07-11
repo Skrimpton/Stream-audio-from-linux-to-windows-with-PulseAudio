@@ -5,13 +5,13 @@
  </div>
  
 ## Guide - Table of contents:
-* [PulseAudio on Linux](https://github.com/Skrimpton/Misc/blob/main/Stream%20linux%20audio%20using%20pulseaudio.md#pulseaudio-on-linux)
+* [PulseAudio on Linux](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/tree/main#pulseaudio-on-linux)
   
-* [Windows](https://github.com/Skrimpton/Misc/blob/main/Stream%20linux%20audio%20using%20pulseaudio.md#windows)
-  * [Find IP-Adress of server](https://github.com/Skrimpton/Misc/blob/main/Stream%20linux%20audio%20using%20pulseaudio.md#finding-the-ip-adress-for-the-server)
-  * [PulseAudio on windows](https://github.com/Skrimpton/Misc/blob/main/Stream%20linux%20audio%20using%20pulseaudio.md#pulseaudio-on-windows)
-  * [NSSM and making a service](https://github.com/Skrimpton/Misc/blob/main/Stream%20linux%20audio%20using%20pulseaudio.md#permanent-automatic-setup)
-    * [Start service](https://github.com/Skrimpton/Misc/blob/main/Stream%20linux%20audio%20using%20pulseaudio.md#finally-start-the-newly-installed-service)
+* [Windows](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/tree/main#windows)
+  * [Find IP-Adress of server](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/tree/main#finding-the-ip-adress-for-the-server)
+  * [PulseAudio on windows](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/tree/main#pulseaudio-on-windows)
+  * [NSSM and making a service](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/tree/main#permanent-automatic-setup)
+    * [Start service](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/tree/main#finally-start-the-newly-installed-service)
 
 <br>
  
@@ -52,7 +52,7 @@ Setting up the Linux side of this is really easy:
    ```
    default-server = 192.168.1.1
    ```
-   * *[Change 192.168.1.1 to the IP of your Windows machine](https://github.com/Skrimpton/Misc/blob/main/Stream%20linux%20audio%20using%20pulseaudio.md#finding-the-ip-adress-for-the-server)*.
+   * *[Change 192.168.1.1 to the IP of your Windows machine](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/tree/main#finding-the-ip-adress-for-the-server)*.
 
 3) Run:
    ```
