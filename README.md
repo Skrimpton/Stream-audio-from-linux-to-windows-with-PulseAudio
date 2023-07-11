@@ -10,7 +10,7 @@
 * [Windows](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/tree/main#windows)
   * [Find IP-Adress of server](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/tree/main#finding-the-ip-adress-for-the-server)
   * [PulseAudio on windows](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/tree/main#pulseaudio-on-windows)
-  * [NSSM and making a service](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/tree/main#permanent-automatic-setup)
+  * [NSSM and making a service](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/blob/main/README.md#nssm-and-making-a-service---permanent-automatic-setup)
     * [Start service](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/tree/main#finally-start-the-newly-installed-service)
 
 <br>
