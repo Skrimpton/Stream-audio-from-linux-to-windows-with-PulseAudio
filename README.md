@@ -147,7 +147,8 @@ However, I found a much newer set of binaries from the X2Go project: http://code
       ```
       auth-anonymous=1 
       ```
-     * [source](https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Modules/) - Do a page search for: auth-anonymous
+     * [source](https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Network/) - Section: Authorization
+       * <ins>**IMPORTANT NOTE:**</ins> Could be a security risk, as mentioned in the source.
      * [example](https://openwrt.org/docs/guide-user/hardware/audio/pulseaudio#configuration)
  ---
  
