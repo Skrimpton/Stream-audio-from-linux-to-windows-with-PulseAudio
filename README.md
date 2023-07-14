@@ -215,10 +215,14 @@ I use NSSM to run arbitrary programs as services.
     ```
     Administrative Tools
     ```
-* or by running 
- 
+* or by running
+  
+    ```
+    net start PulseAudio
+    ```
+
 ## Guide - Table of contents:
-* [Back to top](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/edit/main/README.md#streaming-audio-from-linux-to-windows)
+* [Back to top](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/tree/main#pulseaudio-on-linux#streaming-audio-from-linux-to-windows)
   
 * [PulseAudio on Linux](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/tree/main#pulseaudio-on-linux)
   
@@ -227,11 +231,3 @@ I use NSSM to run arbitrary programs as services.
   * [PulseAudio on windows](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/tree/main#pulseaudio-on-windows)
   * [NSSM and making a service](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/blob/main/README.md#nssm-and-making-a-service---permanent-automatic-setup)
     * [Start service](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/tree/main#finally-start-the-newly-installed-service)
-
-<br>
-
-
-    ```
-    net start PulseAudio
-    ```
-
