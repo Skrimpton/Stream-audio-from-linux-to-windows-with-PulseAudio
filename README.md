@@ -17,18 +17,18 @@
 
 <br>
 
-## Further reading - PulseAudio docs
+## Further reading - PulseAudio documentation
 <table>
  <tr>
-   <th>PulseAudio Documentation overview</th>
+   <th>PulseAudio docs - overview</th>
    <th>https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Modules/</th>
  </tr>
  <tr>
-   <th>PulseAudio Docs - Modules</th>
+   <th>PulseAudio docs - Modules</th>
    <th>https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Modules/</th>
  </tr>
  <tr>
-   <th>PulseAudio Docs - Network</th>
+   <th>PulseAudio docs - Network</th>
    <th>https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Network/</th>
  </tr>
 </table>
