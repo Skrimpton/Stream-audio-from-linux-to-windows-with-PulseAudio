@@ -20,15 +20,15 @@
 ## Further reading - PulseAudio documentation
 <table>
  <tr>
-   <th>PulseAudio docs - Overview</th>
+   <th><a href="https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Modules/">PulseAudio docs - Overview</a></th>
    <th>https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Modules/</th>
  </tr>
  <tr>
-   <th>PulseAudio docs - Modules</th>
+   <th><a href="https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Modules/">PulseAudio docs - Modules</a></th>
    <th>https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Modules/</th>
  </tr>
  <tr>
-   <th>PulseAudio docs - Network</th>
+   <th><a href="https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Network/">PulseAudio docs - Network</a></th>
    <th>https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Network/</th>
  </tr>
 </table>
