@@ -149,6 +149,7 @@ However, I found a much newer set of binaries from the X2Go project: http://code
       ```
      * [source](https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Network/) - Section: Authorization
      * [example](https://openwrt.org/docs/guide-user/hardware/audio/pulseaudio#configuration)
+     * [PulseAudio docs list](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/tree/main#further-reading---pulseaudio-documentation)
  ---
  
 4) Test this setup by running:
