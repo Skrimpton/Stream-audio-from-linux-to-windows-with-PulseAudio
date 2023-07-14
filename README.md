@@ -139,11 +139,11 @@ However, I found a much newer set of binaries from the X2Go project: http://code
   
   ---
   
-   * *Add another:*
+   * *You can alternatively add another subnet with ; and the new subnet:*
      ```
      auth-ip-acl=127.0.0.1;192.168.0.0/24;10.0.0.0/24
      ```
-   * *Allow all connections: <ins>**IMPORTANT NOTE:**</ins> Could be a security risk, as mentioned in the source.*
+   * *If you have problems, you can also try allowing all connections:* *<br><ins> **IMPORTANT NOTE:**</ins> Could be a security risk, as mentioned in the source.*
       ```
       auth-anonymous=1 
       ```
