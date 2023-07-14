@@ -151,17 +151,18 @@ However, I found a much newer set of binaries from the X2Go project: http://code
      * [example](https://openwrt.org/docs/guide-user/hardware/audio/pulseaudio#configuration)
  ---
  
-<br>
-
 4) Test this setup by running:
    
     ```
     c:\pulse\pulseaudio.exe -F config.pa
     ```
 
+<br>
+
 ---
 ### You should now be able to get Linux sound playing on your Windows PC.
 ---
+
 <br>
 
 # NSSM and making a service - Permanent, automatic setup
