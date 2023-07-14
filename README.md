@@ -20,7 +20,7 @@
 ## Further reading - PulseAudio documentation
 <table>
  <tr>
-   <th>PulseAudio docs - overview</th>
+   <th>PulseAudio docs - Overview</th>
    <th>https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Modules/</th>
  </tr>
  <tr>
