@@ -7,13 +7,6 @@
  
 ## Guide - Table of contents:
 
-<table>
- <tr>
-   <th>PulseAudio - Modules</th>
-   <th>https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Modules/</th>
- </tr>
-</table>
-
 * [PulseAudio on Linux](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/tree/main#pulseaudio-on-linux)
   
 * [Windows](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/tree/main#windows)
@@ -23,7 +16,25 @@
     * [Start service](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/tree/main#finally-start-the-newly-installed-service)
 
 <br>
- 
+
+## Further reading - PulseAudio docs
+<table>
+ <tr>
+   <th>PulseAudio Documentation overview</th>
+   <th>https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Modules/</th>
+ </tr>
+ <tr>
+   <th>PulseAudio Docs - Modules</th>
+   <th>https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Modules/</th>
+ </tr>
+ <tr>
+   <th>PulseAudio Docs - Network</th>
+   <th>https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Network/</th>
+ </tr>
+</table>
+
+<br>
+
 ## Background
 
 Having multiple PCs all needing to play audio is a pain - especially when you use a headset.
@@ -117,6 +128,7 @@ However, I found a much newer set of binaries from the X2Go project: http://code
     C:\pulse
     ```
 3) Create a config.pa file in that folder with these contents:
+      
     ```
     load-module module-native-protocol-tcp port=4713 auth-ip-acl=127.0.0.1;192.168.1.0/24
     load-module module-esound-protocol-tcp port=4714 auth-ip-acl=127.0.0.1;192.168.1.0/24
@@ -124,23 +136,21 @@ However, I found a much newer set of binaries from the X2Go project: http://code
     ```
 
    * Replace 192.168.1.0/24 with your local subnet.
-     
+  
+  ---
+  
    * *or add others:*
      ```
      auth-ip-acl=127.0.0.1;192.168.0.0/24;10.0.0.0/24
      ```
-   * *or allow all*
+   * *or allow all:*
       ```
       auth-anonymous=1 
       ```
-     * [source](https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Modules/) - *Do a page search for:*
-       <sup>
-       ```
-       auth-anonymous
-       ```
-       </sup>
-     
+     * [source](https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Modules/) - Do a page search for: auth-anonymous
      * [example](https://openwrt.org/docs/guide-user/hardware/audio/pulseaudio#configuration)
+ ---
+ 
 <br>
 
 4) Test this setup by running:
@@ -206,6 +216,20 @@ I use NSSM to run arbitrary programs as services.
     Administrative Tools
     ```
 * or by running 
+ 
+## Guide - Table of contents:
+* [Back to top](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/edit/main/README.md#streaming-audio-from-linux-to-windows)
+  
+* [PulseAudio on Linux](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/tree/main#pulseaudio-on-linux)
+  
+* [Windows](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/tree/main#streaming-audio-from-linux-to-windows)
+  * [Find IP-Adress of server](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/tree/main#finding-the-ip-adress-for-the-server)
+  * [PulseAudio on windows](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/tree/main#pulseaudio-on-windows)
+  * [NSSM and making a service](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/blob/main/README.md#nssm-and-making-a-service---permanent-automatic-setup)
+    * [Start service](https://github.com/Skrimpton/Stream-audio-from-linux-to-windows-with-PulseAudio/tree/main#finally-start-the-newly-installed-service)
+
+<br>
+
 
     ```
     net start PulseAudio
